@@ -6,7 +6,7 @@ from typing import Literal
 from fastapi.middleware.cors import CORSMiddleware
 
 
-model = joblib.load('model.pkl')
+model = joblib.load('Model.pkl')
 app = FastAPI()
 
 app.add_middleware(
